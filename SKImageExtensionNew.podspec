@@ -30,13 +30,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SKImageExtensionNew/Classes/**/*'
+  s.source_files = 'SKImageExtensionNew/Classes/**/*.{swift}'
   
   # s.resource_bundles = {
   #   'SKImageExtensionNew' => ['SKImageExtensionNew/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit' #, 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_version    = '5.0'
 end

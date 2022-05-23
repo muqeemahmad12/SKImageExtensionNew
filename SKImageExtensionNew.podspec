@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SKImageExtensionNew/Classes/**/*.{swift}'
+  s.source_files = 'SKImageExtensionNew/**/*.{swift}'
   
   # s.resource_bundles = {
   #   'SKImageExtensionNew' => ['SKImageExtensionNew/Assets/*.png']

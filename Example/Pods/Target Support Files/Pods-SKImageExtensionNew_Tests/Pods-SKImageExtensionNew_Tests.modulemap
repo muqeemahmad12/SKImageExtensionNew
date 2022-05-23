@@ -1,0 +1,6 @@
+framework module Pods_SKImageExtensionNew_Tests {
+  umbrella header "Pods-SKImageExtensionNew_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

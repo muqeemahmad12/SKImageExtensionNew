@@ -1,0 +1,22 @@
+{
+  "name": "SKImageExtensionNew",
+  "version": "0.1.0",
+  "summary": "A short description of SKImageExtensionNew.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/muqeemahmad12/SKImageExtensionNew",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "muqeemahmad12": "103497679+muqeemahmad12@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/muqeemahmad12/SKImageExtensionNew.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SKImageExtensionNew/Classes/**/*"
+}

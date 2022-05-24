@@ -11,7 +11,7 @@
 		146F20E068A330597C964F7CDFE9FC4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		452BF9C3B89030D23E558D7FA12AC016 /* Pods-SKImageExtensionNew_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75AD3AD95831BDC77B1BFE3F477942D4 /* Pods-SKImageExtensionNew_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E9D183AB226326A458DF5EF75A0367A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		54CBF26A283BC696002E4EDE /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CBF269283BC696002E4EDE /* UIImageExtension.swift */; };
+		54CBF26C283CAC4F002E4EDE /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CBF26B283CAC4F002E4EDE /* UIImageExtension.swift */; };
 		80C087C4CB4D3F3295A8D4494C44C3A9 /* Pods-SKImageExtensionNew_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 161FD0DA999C8C4C5297F149E68864EF /* Pods-SKImageExtensionNew_Example-dummy.m */; };
 		841CA99E6751769F1B9939F2C88F22FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		967C115653F1CD1EF969F3FAAA9F8B39 /* Pods-SKImageExtensionNew_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84FA9B65E75E225E8C13988330A8F9D3 /* Pods-SKImageExtensionNew_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,7 +50,7 @@
 		3FF545903F2FAE33C77B13969D742020 /* Pods-SKImageExtensionNew_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SKImageExtensionNew_Example"; path = Pods_SKImageExtensionNew_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49CB5C7CBFD39699C797562CB225B136 /* Pods-SKImageExtensionNew_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKImageExtensionNew_Tests-dummy.m"; sourceTree = "<group>"; };
 		541349373DD39B8906BFD8B3BC0C2C8B /* Pods-SKImageExtensionNew_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKImageExtensionNew_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		54CBF269283BC696002E4EDE /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		54CBF26B283CAC4F002E4EDE /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = SKImageExtensionNew/Classes/UIImageExtension.swift; sourceTree = "<group>"; };
 		5D5DDCD1F326DBB3347151F95A219BFF /* Pods-SKImageExtensionNew_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKImageExtensionNew_Example.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75AD3AD95831BDC77B1BFE3F477942D4 /* Pods-SKImageExtensionNew_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKImageExtensionNew_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -134,14 +134,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		54CBF268283BC689002E4EDE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				54CBF269283BC696002E4EDE /* UIImageExtension.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,7 +180,7 @@
 		AE3932E55AB550284B015D022EF7E0B5 /* SKImageExtensionNew */ = {
 			isa = PBXGroup;
 			children = (
-				54CBF268283BC689002E4EDE /* Classes */,
+				54CBF26B283CAC4F002E4EDE /* UIImageExtension.swift */,
 				8364D1C38082001CA404BE3884D1B5D4 /* Pod */,
 				6B5E2A4A8C0CCAEFEECD7B9232CBDC93 /* Support Files */,
 			);
@@ -397,7 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9828FE044BD78423B6C4FE317741142 /* SKImageExtensionNew-dummy.m in Sources */,
-				54CBF26A283BC696002E4EDE /* UIImageExtension.swift in Sources */,
+				54CBF26C283CAC4F002E4EDE /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
